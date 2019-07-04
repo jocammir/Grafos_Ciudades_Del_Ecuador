@@ -1,0 +1,23 @@
+node {
+    size: 30px;
+    fill-mode: gradient-vertical;   /* Default.          */
+    fill-color: #29B8E5, #BCE0EE;    /* Default is black. */
+    stroke-mode:none;
+    stroke-width:2px;
+    text-size:12;
+    text-style:bold;
+}
+
+edge {
+	stroke-mode:plain;
+	stroke-width:1px;
+	text-alignment:under;
+	text-size:14;
+    text-style:bold;
+    text-background-mode:rounded-box;
+    text-background-color:white;
+}
+
+node.marked {
+	fill-color: red;
+}
